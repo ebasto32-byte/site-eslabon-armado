@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eslabón Armado | Site de fã</title>
+  <meta name="description" content="Site dedicado à banda de música regional mexicana Eslabon Armado.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+
+  <header class="navbar">
+    <a class="navbar__brand" href="#inicio">Eslabón Armado</a>
+
+    <button class="navbar__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="navbar__menu" id="navMenu">
+      <a class="navbar__link" href="#inicio">Início</a>
+      <a class="navbar__link" href="#biografia">Biografia</a>
+      <a class="navbar__link" href="#membros">Membros</a>
+      <a class="navbar__link" href="#galeria">Galeria</a>
+      <a class="navbar__link" href="#contactos">Contactos</a>
+    </nav>
+  </header>
+
+
+  <section class="hero" id="inicio">
+    <div class="hero__card">
+      <div class="hero__card-text">
+        <h1 class="hero__title">
+          <span>Eslabón</span>
+          <span>Armado</span>
+        </h1>
+      </div>
+      <img class="hero__card-photo" src="fotos/banda-eslabon.webp" alt="Foto da banda Eslabon Armado">
+    </div>
+
+    <p class="hero__tagline">guitarras, saudade e a alma da música regional mexicana.</p>
+  </section>
+
+  <main>
+
+
+    <section class="section" id="biografia">
+      <div class="two-columns">
+
+        <article class="bio">
+          <h2 class="section__title">Biografia</h2>
+          <p>
+            Os Eslabon Armado são uma banda de música regional mexicana.Com um som no qual as guitarras
+            têm o papel principal, misturam a sonoridade mexicana com o desilusões amorosas e conquistando milhares de pessoas ao redor do mundo.
+          </p>
+          <p>
+            As letras falam de amor, desgosto e saudade, e é essa honestidade,
+            junto com a sonoridade das cordas, que torna cada canção tão fácil de sentir.
+          </p>
+        </article>
+
+        <aside class="concert">
+          <h2 class="section__title">Próximo concerto</h2>
+          <p class="concert__date">13 / 11 / 2026</p>
+          <p class="concert__place"> Guadalajara, México</p>
+          <a class="button" href="#contactos">Ver bilhetes</a>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- ========== MEMBROS ========== -->
+    <section class="section section--dark" id="membros">
+      <h2 class="section__title">Membros</h2>
+      <div class="cards">
+
+        <article class="card">
+          <img class="card__img" src="fotos/Novo-pedro-tovar.jpg" alt="Pedro Tovar">
+          <h3 class="card__name">Pedro Tovar</h3>
+          <p class="card__role"> Líder do grupo, vocalista principal e compositor. É também responsável por tocar a guitarra de doze cordas.</p>
+        </article>
+
+        <article class="card">
+          <img class="card__img" src="fotos/braian-tovar.jpg" alt="Brian Tovar">
+          <h3 class="card__name">Brian Tovar</h3>
+          <p class="card__role">Baixista, toca baixo acústico/elétrico.É irmão de Pedro.</p>
+        </article>
+
+        <article class="card">
+          <img class="card__img" src="fotos/damian.jpg" alt="Damian Pacheco">
+          <h3 class="card__name">Damian Pacheco</h3>
+          <p class="card__role">Guitarrista. Entrou para reforçar a banda em tournée e tornou-se membro oficial do grupo.</p>
+        </article>
+
+      </div>
+    </section>
+
+    
+    <section class="section" id="galeria">
+      <h2 class="section__title">Discografia</h2>
+      <div class="gallery">
+       <a class="gallery__item" href="https://www.youtube.com/watch?v=OKCbQu7aS-4&list=PLWl6SAe3HXiA" target="_blank" rel="noopener">
+      <img class="gallery__img" src="fotos/album1.jpg" alt="Tu Veneno Mortal">
+      <span class="gallery__caption">Tu Veneno Mortal</span>
+    </a>
+
+    <a class="gallery__item" href="https://www.youtube.com/watch?v=SJr0LEmVjGw&list=PLUrdszRZQr-Q" target="_blank" rel="noopener">
+      <img class="gallery__img" src="fotos/album2.jpg" alt="Vibras de Noche">
+      <span class="gallery__caption">Vibras de Noche</span>
+    </a>
+
+    <a class="gallery__item" href="https://www.youtube.com/watch?v=jfMboau-Kzs&list=PLa0-cGcCQQ-g" target="_blank" rel="noopener">
+      <img class="gallery__img" src="fotos/album3.jpg" alt="Corta Venas">
+      <span class="gallery__caption">Corta Venas</span>
+    </a>
+
+    <a class="gallery__item" href="https://www.youtube.com/watch?v=R41bUxo88mU&list=PLObGlHDbwEig" target="_blank" rel="noopener">
+      <img class="gallery__img" src="fotos/album4.jpg" alt="DESVELADO">
+      <span class="gallery__caption">DESVELADO</span>
+    </a>
+
+    <a class="gallery__item" href="https://www.youtube.com/watch?v=xvHNEFGa7uE&list=PLRu3NCZ1a2xM" target="_blank" rel="noopener">
+      <img class="gallery__img" src="fotos/album5.jpg" alt="Vibras de Noche II">
+      <span class="gallery__caption">Vibras de Noche II</span>
+    </a>
+
+    <a class="gallery__item" href="https://www.youtube.com/watch?v=9ryPGWwJ--w&list=PLcs_095frFVE" target="_blank" rel="noopener">
+      <img class="gallery__img" src="fotos/album6.jpg" alt="Nocturno">
+      <span class="gallery__caption">Nocturno</span>
+    </a>
+
+  </div>
+</section>
+
+
+  </main>
+
+  
+  <footer class="footer" id="contactos">
+    <h2 class="footer__title">Segue a banda</h2>
+
+    <ul class="footer__socials">
+      <li><a href="https://www.instagram.com/eslabonarmado/" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="https://www.youtube.com/results?search_query=Eslabon+Armado" target="_blank" rel="noopener">YouTube</a></li>
+      <li><a href="https://open.spotify.com/search/Eslabon%20Armado" target="_blank" rel="noopener">Spotify</a></li>
+    </ul>
+
+    <p class="footer__contact">Contacto: <a href="mailto:e.basto32@gmail.com">e.basto32@gmail.com</a></p>
+    <p class="footer__small">© 2026 Eslabon Armado, site de fã. Projeto de Aplicações Web.<br>
+  Imagens e música pertencem aos seus respetivos autores.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
